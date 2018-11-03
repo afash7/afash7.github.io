@@ -1,0 +1,293 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "bootstrap/bootstrap.scss";
+
+
+//----- Font Awesome -----
+@import "fa/variables";
+@import "fa/mixins";
+@import "fa/path";
+@import "fa/core";
+@import "fa/larger";
+@import "fa/fixed-width";
+@import "fa/list";
+@import "fa/bordered-pulled";
+@import "fa/animated";
+@import "fa/rotated-flipped";
+@import "fa/stacked";
+@import "fa/icons";
+@import "fa/screen-reader";
+//----- END F.. A... -----
+
+// Syntax highlighting @import is at the bottom of this file
+
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+@font-face {
+  font-family: sahel;
+  font-weight: regular;
+  src: url('fonts/Sahel-FD.woff') format("woff");
+}
+@font-face {
+  font-family: sahel;
+  font-weight: bold;
+  src: url('fonts/Sahel-Bold-FD.woff') format("woff");
+}
+@font-face {
+  font-family: titr;
+  font-weight: regular;
+  src: url('fonts/BTitr.woff') format("woff");
+}
+
+// Color-Variables
+$black: #000;
+$white: #fff;
+$mycolor1: #FF6969;
+$mycolor2: #6c757d;
+//
+body{
+  direction: rtl;
+  font-family: Anonymous Pro, sahel;
+  text-align: right;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover{
+  color: $mycolor1;
+  text-decoration: none;
+}
+.container{
+  max-width: 740px !important;
+}
+img {
+  max-width: 100%;
+}
+.siteinfo {
+  margin-top: 1.25em;
+  .avatar {
+    width: 4.375em;
+    height: 4.375em;
+    margin-left: 1em;
+  }
+  .sitename {
+    font-family: titr, sahel;
+    h1 {
+      font-size: 1.75em;
+    }
+  }
+  .sitedescription {
+    font-family: sahel;
+    font-size: 1em;
+    color: #666;
+  }
+}
+nav.topbar{
+  .vertical-middle {
+    a{
+      margin: 0 0.625em;
+      font-size: 1.125em;
+      transition: 250ms ease-out;
+    }
+    a:hover {
+      border-bottom: 1px solid $mycolor1;
+      padding-bottom: .3em
+    }
+  }
+}
+.hrbtm {
+  border-bottom: 1px solid #eee;
+  margin-bottom: .2em;
+}
+
+.post,.page{
+  border-bottom: 1px solid #eee;
+  padding-bottom: .95em;
+  margin-top: 1.8em;
+  h1{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: .2em;
+    margin-bottom: .9375em;
+    word-spacing: -.25em;
+  }
+  h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    word-spacing: -.25em;
+  }
+  h3{
+    font-size: 1.3em;
+    font-weight: 700;
+    word-spacing: -.25em;
+  }
+  h4{
+    font-size: 1.1em;
+    font-weight: 700;
+    word-spacing: -.25em;
+  }
+  .content {
+    word-spacing: -.2em;
+    line-height: 1.8;
+    font-size: 1em;
+    blockquote.ltr{
+      direction: ltr;
+      text-align: left;
+      border-left: 2px solid #666;
+      border-right: 0;
+    }
+    blockquote{
+      margin: 1.8em .8em;
+      border-right: 2px solid #666;
+      padding: 0.1em 1em;
+      color: #666;
+      font-size: 1.14em;
+      font-style: italic;
+    }
+    a {
+      color: $mycolor1;
+    }
+  
+  }
+  .btn-outline-mycolor {
+    color: #666;
+    background-color: transparent;
+    background-image: none;
+    border-color: #666;
+    font-size: .9375em;
+  }
+  .btn-outline-mycolor:hover{
+    background-color: $mycolor1;
+    color: $white;
+    border-color: $white;
+  }
+  .date-height {
+    line-height: 2.375em;
+  }
+  .date{
+    vertical-align: middle;
+    color: #666;
+    font-size: .9375em;
+    font-family: sahel;
+  }
+  .progress-bar {
+    font-weight: 700;
+  }
+}
+.paginate{
+  margin: 12px 0px;
+}
+.post-pg-btn{
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid $mycolor1;
+    margin: 12px 0px;
+    padding: 5px 8px;
+    text-align: center;
+    color: $mycolor1;
+    height: 2.35em;
+    overflow: hidden;
+    i.fa {
+      position: relative;
+      top: .35em;
+    }
+}
+.post-pg-btn:hover {
+    background-color: $mycolor1;
+    color: white;
+}
+.archive {
+  margin-top: 1.5em;
+  .row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: .34em
+  }
+  h1{
+    font-family: sahel;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: .9375em;
+    margin-bottom: .5375em;
+    word-spacing: -.25em;
+  }
+  .item {
+    margin-bottom: .325em;
+  }
+}
+footer {
+  margin: 1.25em 0;
+  text-align: center;
+}
+.footer-text{
+  margin-top: .5em;
+  font-size: .875em;
+  color: #555;
+}
+section.skills {
+  margin-bottom: 1.5em;
+}
+.bg-mycolor {
+  background-color: $mycolor2;
+}
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "custom";
+
+@media (max-width: 575px) {
+  section.skills {
+    .name {
+      text-align: left;
+    }
+    .progress {
+      direction: ltr;
+    }
+  }
+}
+@media (min-width: 576px) {
+  section.skills {
+    .name {
+      text-align: center;
+    }
+    .progress {
+      position: relative;
+      top: 5px;
+      direction: ltr;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  nav {
+    text-align: center;
+    margin-bottom: 1.15em;
+  }
+  header {
+    text-align: center;
+    img.avatar{
+      margin-bottom: .5em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    img.avatar {
+      float: right;
+    }
+  }
+  nav{
+    line-height: 6.9375em;
+    text-align: left;
+    .vertical-middle{
+      vertical-align: middle;
+    }
+  }
+}
