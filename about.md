@@ -6,16 +6,17 @@ permalink: /about/
 
 
 <div class="card">
-				<img class="card-img-top" src="/images/hamid.jpg" alt="Card image cap">
+				<img class="card-img-top" src="/images/Afash.jpg" alt="Card image cap" border="3">
 				<div class="card-body">
 					
 					<p class="card-text"><strong>
-حمید صیدی هستم شهریور ۱۳۶۹ در کرمانشاه به دنیا امدم .
+من آفَش هستم اول تیرماه سال ۱۳۷۴ در کرمانشاه به دنیا اومدم ، به خوردن چیپس با گردو علاقه مندم و سه تار مینوازم! .
 
-فارق التحصیل کارشناسی حسابداری از دانشگاه آزاد کرمانشاه
+کاردان شبکه هستم و در رشته کارشناسی نرم افزار تحصیل میکنم در حال حاضر مدیر آی تی شرکت [KRP] (http://krpenco.com) و از مشاورین شرکت حامی هستم .
+من درمورد آینده پژوهی و تکنولوژی مطالعه میکنم در زمینه دانش آزاد و نرم افزار آزاد فعالیت دارم .
 
-علاقه‌مند به گنو/لینوکس، عاشق یادگیری ،دوستدار موسیقی</strong></p>
-					<a href="https://github.com/herotux" class="btn btn-warning">follow me in github!</a>
+علاقه‌مند به گنو/لینوکس، شبکه، عاشق یادگیری و دوستدار موسیقی</strong></p>
+					<a href="https://github.com/Afash7" class="btn btn-warning">follow me in github!</a>
 				</div>
 			</div>
 
@@ -80,7 +81,7 @@ permalink: /about/
   </div>
   <div class="row">
     <div class="col-12 col-sm-3 name">
-      JavaScript
+      Java
     </div>
     <div class="col-12 col-sm-9">
       <div class="progress">
@@ -96,7 +97,7 @@ permalink: /about/
     </div>
     <div class="col-12 col-sm-9">
       <div class="progress">
-        <div class="progress-bar progress-bar-striped bg-mycolor" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+        <div class="progress-bar progress-bar-striped bg-mycolor" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
           70%
         </div>
       </div>
@@ -112,7 +113,7 @@ permalink: /about/
     </div>
     <div class="col-12 col-sm-9">
       <div class="progress">
-        <div class="progress-bar progress-bar-striped bg-mycolor" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+        <div class="progress-bar progress-bar-striped bg-mycolor" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
           70%
         </div>
     </div>
